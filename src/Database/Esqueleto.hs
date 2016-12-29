@@ -109,7 +109,7 @@ import Control.Monad.Trans.Reader (ReaderT)
 import Data.Int (Int64)
 import Database.Esqueleto.Internal.Language
 import Database.Esqueleto.Internal.Sql
-import Database.Esqueleto.Internal.PersistentImport
+import Database.Esqueleto.Internal.PersistentImport hiding (count)
 import qualified Database.Persist
 
 
